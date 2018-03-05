@@ -1,0 +1,19 @@
+.container-fluid {
+    background: white;
+    padding-right: 80px;
+    font-size: 24px;
+}
+
+.navbar-brand {
+    padding-left: 80px;
+    font-size: 24px;
+}
+
+.footer {
+    background: grey;
+    padding-top: 6px;
+    font-size: 14px;
+    color: white;
+    text-align: center;
+    vertical-align: center;
+}

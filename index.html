@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Latitude</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Gar Cheuy's Data Portfolio</title>
+    <!-- <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" /> -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/styles.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
@@ -14,22 +15,13 @@
     <header>
         <nav class="navbar navbar-default">
             <div class="container-fluid">
-                <!-- Brand and toggle get grouped for better mobile display -->
                 <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="index.html">Latitude</a>
+                    <a class="navbar-brand" href="index.html">Gar Cheuy's Data Portfolio</a>
                 </div>
-
-                <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav navbar-right">
                         <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plots <span class="caret"></span></a>
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Projects <span class="caret"></span></a>
                             <ul class="dropdown-menu">
                                 <li><a href="maxtemperature.html">Max Temperature</a></li>
                                 <li><a href="humidity.html">Humidity</a></li>
@@ -37,49 +29,44 @@
                                 <li><a href="windspeed.html">Wind Speed</a></li>
                             </ul>
                         </li>
-                        <li><a href="comparison.html">Comparison</a></li>
-                        <li><a href="data.html">Data</a></li>
                     </ul>
                 </div><!-- /.navbar-collapse -->
             </div><!-- /.container-fluid -->
         </nav>
     </header>
     <div class="container">
-        <div class="row main">
-            <div class="col-md-8 summary">
-                <h1>Summary: Latitude vs. X</h1>
-                <hr>
-                <p><img style="padding: 0 10px; float: left;" src="./Images/CityLatitudeVsMaxTemperature.png" height="140" width="150" /></p>
-                <p>The purpose of this project was to analyze how weather changes as you get closer to the equator.  To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cites</p>
-                <p>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs latitude.  Factors we looked at included: temperature, cloudiness, wind speed, and humidity.  This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.</p>
+        <div class="row first">
+            <div class="col-md-4 col-xs-12">
+                <a href="maxtemperature.html">
+                    <img src="images/CityLatitudeVsMaxTemperature.png" alt="Maximum Temperature" height="330" width="330">
+                </a>
             </div>
-            <div class="col-md-4 col-xs-12 visualizations">
-                <h1>
-                    Visualizations
-                </h1>
-                <hr>
-                <div class="row plots">
-                    <div class="col-md-6 col-xs-3">
-                        <a href="maxtemperature.html">
-                            <img src="./Images/CityLatitudeVsMaxTemperature.png" alt="Maximum Temperature" height="110" width="110">
-                        </a>
-                    </div>
-                    <div class="col-md-6 col-xs-3">
-                        <a href="humidity.html">
-                            <img src="./Images/CityLatitudeVsHumidity.png" alt="Humanity" height="110" width="110">
-                        </a>
-                    </div>
-                    <div class="col-md-6 col-xs-3">
-                        <a href="cloudiness.html">
-                            <img src="./Images/CityLatitudeVsCloudiness.png" alt="Cloudiness" height="110" width="110">
-                        </a>
-                    </div>
-                    <div class="col-md-6 col-xs-3">
-                        <a href="windspeed.html">
-                            <img src="./Images/CityLatitudeVsWindSpeed.png" alt="Wind Speed" height="110" width="110">
-                        </a>
-                    </div>
-                </div>
+            <div class="col-md-4 col-xs-12">
+                <a href="maxtemperature.html">
+                    <img src="images/CityLatitudeVsMaxTemperature.png" alt="Maximum Temperature" height="330" width="330">
+                </a>
+            </div>
+            <div class="col-md-4 col-xs-12">
+                <a href="maxtemperature.html">
+                    <img src="images/CityLatitudeVsMaxTemperature.png" alt="Maximum Temperature" height="330" width="330">
+                </a>
+            </div>
+        </div>
+        <div class="row second">
+            <div class="col-md-4 col-sm-12">
+                <a href="maxtemperature.html">
+                    <img src="images/CityLatitudeVsMaxTemperature.png" alt="Maximum Temperature" height="330" width="330">
+                </a>
+            </div>
+            <div class="col-md-4 col-sm-12">
+                <a href="maxtemperature.html">
+                    <img src="images/CityLatitudeVsMaxTemperature.png" alt="Maximum Temperature" height="330" width="330">
+                </a>
+            </div>
+            <div class="col-md-4 col-sm-12">
+                <a href="maxtemperature.html">
+                    <img src="images/CityLatitudeVsMaxTemperature.png" alt="Maximum Temperature" height="330" width="330">
+                </a>
             </div>
         </div>
     </div>
