@@ -64,6 +64,11 @@ a {
     padding: 12px;
 }
 
+.i_frame {
+    width: 100%;
+    height: 100%
+}
+
 .footer {
     background: grey;
     padding-top: 6px;
