@@ -1,5 +1,6 @@
 body {
 	padding-top: 80px;
+	padding-bottom: 40px;
 	font-family: 'Open Sans', sans-serif;
 }
 
@@ -14,7 +15,7 @@ body {
 }
 
 .fa-external-link-alt {
-	margin-left: 28px;
+	margin-left: 40px;
 }
 
 .fa-window-maximize {
