@@ -19,7 +19,7 @@
 	        <span class="icon-bar"></span>
 	        <span class="icon-bar"></span>
 	      </button>
-	      <a class="navbar-brand" href="index.html"><img style=" max-width: 45px; margin-top: -7px;" src="images/gar.png"></a>
+	      <a class="navbar-brand" href="https://garcheuy.github.io/"><img style=" max-width: 45px; margin-top: -7px;" src="images/gar.png"></a>
 	    </div>
 
 	    <!-- Collect the nav links, forms, and other content for toggling -->
@@ -33,9 +33,9 @@
 	        <li class="dropdown" style="margin-top: 4px;">
 	          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">My Works <span class="caret"></span></a>
 	          <ul class="dropdown-menu">
-	            <li><a href="#">Action</a></li>
-	            <li><a href="#">Another action</a></li>
-	            <li><a href="#">Something else here</a></li>
+	            <li><a onclick="bio()">Belly Button Biodiversity</a></li>
+	            <li><a onclick="aliens()">Alien Sightings</a></li>
+	            <li><a onclick="latitude()">Latitude</a></li>
 	            <li><a href="#">Action</a></li>
 	            <li><a href="#">Another action</a></li>
 	            <li><a href="#">Something else here</a></li>
@@ -49,9 +49,21 @@
 
 	<div class="container">
 
-		<div id="project" style="display: none">
+		<div id="bio" style="display: none">
 		  	<div class="embed-responsive embed-responsive-16by9">
 		  		<iframe class="embed-responsive-item" src="https://sheltered-ridge-79786.herokuapp.com/"></iframe>
+			</div>
+		</div>
+
+		<div id="aliens" style="display: none">
+		  	<div class="embed-responsive embed-responsive-16by9">
+		  		<iframe class="embed-responsive-item" src="../aliens/index.html"></iframe>
+			</div>
+		</div>
+
+		<div id="latitude" style="display: none">
+		  	<div class="embed-responsive embed-responsive-16by9">
+		  		<iframe class="embed-responsive-item" src="../Latitude/index.html"></iframe>
 			</div>
 		</div>
 
@@ -70,7 +82,7 @@
 
 			                <h4><a href="https://sheltered-ridge-79786.herokuapp.com/" target="_blank">Belly Button Biodiversity</a>
 			                <a href="https://sheltered-ridge-79786.herokuapp.com/" target="_blank"><i class="fas fa-external-link-alt"></i></a>
-			                <a onclick="myFunction()"><i class="far fa-window-maximize"></i></a></h4>
+			                <a onclick="bio()"><i class="far fa-window-maximize"></i></a></h4>
 	            		</div>
 	            		<!-- <div class="project"><a href="https://sheltered-ridge-79786.herokuapp.com/">Bio</a></div> -->
 						<a href="https://sheltered-ridge-79786.herokuapp.com/"><img src="Images/bacteria.jpeg"></a>
@@ -82,9 +94,11 @@
 				<div class="col-lg-4 col-sm-6">
 					<div class="thumbnail">
 						<div class="caption">
-			                <h4><a href="https://sheltered-ridge-79786.herokuapp.com/">Belly Button Biodiversity</a></h4>
+			                <h4><a href="../aliens/index.html" target="_blank">Alien Sightings</a>
+			                <a href="../aliens/index.html" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+			                <a onclick="aliens()"><i class="far fa-window-maximize"></i></a></h4>
 	            		</div>
-						<a href="https://sheltered-ridge-79786.herokuapp.com/"><img src="Images/alien.jpg"></a>
+						<a href="../aliens/index.html"><img src="Images/alien.jpg"></a>
 						<div class="caption">
 			                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
 	            		</div>
@@ -93,9 +107,11 @@
 				<div class="col-lg-4 col-sm-6">
 					<div class="thumbnail">
 						<div class="caption">
-			                <h4><a href="https://sheltered-ridge-79786.herokuapp.com/">Belly Button Biodiversity</a></h4>
+			                <h4><a href="../Latitude/index.html" target="_blank">Latitude</a>
+			                <a href="../Latitude/index.html" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+			                <a onclick="latitude()"><i class="far fa-window-maximize"></i></a></h4>
 	            		</div>
-						<a href="https://sheltered-ridge-79786.herokuapp.com/"><img src="Images/bacteria.jpeg"></a>
+						<a href="../Latitude/index.html"><img src="Images/bacteria.jpeg"></a>
 						<div class="caption">
 			                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
 	            		</div>
