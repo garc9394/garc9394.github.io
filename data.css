@@ -22,6 +22,38 @@ body {
 	margin-left: 14px;
 }
 
+.tooltip-inner {
+	max-width: 236px !important;
+	height: 34px;
+	font-size: 14px;
+	padding: 6px 8px 8px 8px;
+	background: rgb(247, 124, 102);
+	border: 1px solid #737373;
+	text-align: left;
+}
+
+.tooltip.top .tooltip-arrow{
+    bottom:0;
+    left:50%;
+    margin-left:-5px;
+    border-left:5px solid transparent;
+    border-right:5px solid transparent;
+    border-top:5px solid #737373;
+}
+
+.tooltip.bottom .tooltip-arrow{
+    bottom:0;
+    left:50%;
+    margin-left:-5px;
+    border-left:5px solid transparent;
+    border-right:5px solid transparent;
+    border-bottom:5px solid #737373;
+}
+
+.tooltip.show {
+	opacity: 1;
+}
+  
 /*.row {
     display: flex;
 	flex-wrap: wrap;
