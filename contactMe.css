@@ -10,3 +10,8 @@ html, body {
 .modal-title {
 	font-size: 28px;
 }
+
+.btn-secondary {
+	background: gray;
+	color: white;
+}
