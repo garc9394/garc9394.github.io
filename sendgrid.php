@@ -1,6 +1,6 @@
 <?php
 // If you are using Composer
-require 'vendor/autoload.php';
+require './vendor/autoload.php';
 
 // If you are not using Composer (recommended)
 // require("path/to/sendgrid-php/sendgrid-php.php");
