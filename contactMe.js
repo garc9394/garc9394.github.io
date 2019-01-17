@@ -35,7 +35,7 @@ $(function()
         }//else
     }
 
-	$('#reused_form').submit(function(e)
+	$('#contactMeModal').submit(function(e)
       {
         e.preventDefault();
 
