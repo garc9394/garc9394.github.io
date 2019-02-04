@@ -63,3 +63,7 @@ body {
     display: flex;
     flex-direction: column;
 }
+
+.thumbnail {
+    height: 100%;
+}
