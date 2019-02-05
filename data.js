@@ -123,7 +123,7 @@ function bike() {
     b.style.display = "none";
     c.style.display = "none";
     d.style.display = "none";
-    d.style.display = "none";
+    e.style.display = "none";
     f.style.display = "none";
     h.style.display = "none";
 }
